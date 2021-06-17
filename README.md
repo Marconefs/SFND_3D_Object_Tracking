@@ -60,7 +60,7 @@ used to avoid outliers.
 
 The results on which is discussed the performance of different combinations of keypoint extractors with keypoint matching methods for TCC estimation is shown in this [file](media/tables.pdf).
 
-## Performance Evaluation 1
+### Performance Evaluation 1
 
 Comparing the estimated Lidar-based TTC values with the manually calculated ones based on the top
 view perpective, it gives an impression that some Lidar-based TTC estimations are way off (Frame 4, 7
@@ -70,7 +70,7 @@ miscalculation (distances are not the true minimum values in one or both current
 The top view image of each given example are shown in the figures bellow, where the current frame is
 in the right side and the previous frame in the left.
 
-## Performance Evaluation 2
+### Performance Evaluation 2
 
 Looking at the camera-based TTC estimations, many nan values are found, where the major use
 HARRIS or ORB detector. This happend lijely because of small number of keypoint detected along the
