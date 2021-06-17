@@ -73,7 +73,7 @@ in the right side and the previous frame in the left.
 ### Performance Evaluation 2
 
 Looking at the camera-based TTC estimations, many nan values are found, where the major use
-HARRIS or ORB detector. This happend lijely because of small number of keypoint detected along the
+HARRIS or ORB detector. This happend likely because of small number of keypoint detected along the
 frames. High or too low TTC camera based estimations appear among the results, such values are
 exemplified in frame 7 from ORB/FREAK set and frame 6 from HARRIS descriptor sets. It is probably
 because of mismatching keypoints, leading to wrong h ratio (h_1 / h_0) calculation and then wrong
